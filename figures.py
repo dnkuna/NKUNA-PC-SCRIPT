@@ -231,6 +231,8 @@ def drawhexagone():
         stylo.forward(cote)
         stylo.left(300)
 
+def drawsphere():
+    print("ceci est la sphere")
 
 # -----------------------------------------------------------------------------------------------------------------------
 # fonction qui permet de dessiner un polygone selon le choix
@@ -275,3 +277,5 @@ def rejouer():
 
 # appel de la fonction pour dessiner
 rejouer()
+drawsphere()
+
